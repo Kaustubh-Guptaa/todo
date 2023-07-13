@@ -1,0 +1,21 @@
+.box{
+    height: 150px;
+    width: 900px;
+    padding: 20px;
+    margin: 50px;
+    border: 15px solid rgb(189, 178, 130);
+    border-radius: 20px;
+    text-align:center; 
+    font-family: Verdana, sans-serif;
+    background-color: rgb(208, 196, 142);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text:hover {
+    color: rgb(48, 166, 154);
+    text-shadow: 2px, 2px, 5px fuchsia;
+    font-weight:bold;
+  }
